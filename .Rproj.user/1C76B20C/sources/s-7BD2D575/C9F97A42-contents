@@ -1,0 +1,61 @@
+---
+output: word_document
+---
+K-means Clustering using Apache Mahout
+========================================================
+author: Mehul Katara
+date: 16-01-2021
+autosize: true
+
+
+What is Clustering
+========================================================
+
+- Clustering is one of the most common data analysis technique used to get an intuition about the structure of the data
+- It can be defined as the task of identifying subgroup in the data such that data points in the same subgroup (cluster) are very similar while data points in different cluster are very different.
+
+What is K-means ?
+========================================================
+
+- Kmeans algorithm is an iterative algorithm that tries to partition the dataset into Kpre-defined distinct non-overlapping subgroup (clusters) where each data point belongs to only one group
+- The 'means' in the K-means refers to averaging of the data; that is ,finding the centroid.
+
+How the K-means algorithm works ?
+========================================================
+
+- To process the learning data, the K-means algorithm in data mining starts with a first group of randomly selected centroids, which are used as the beginning points for every cluster, and then performs iterative (repetitive) calculations to optimize the positions of the centroids.
+- It halts creating and optimizing clusters when either :
+- The centroids have stabilized. There is no change in their values because the clustering has been successful.
+- The defined number of iterations has been achieved.
+
+Steps to be followed in Mahout
+========================================================
+
+* Getting the data
+* Copping text files to the HDFD
+* Convert our dataset into SequenceFiles
+* Convert SequenceFiles to sparse vector file format
+* Running k-means text clustering algorithm
+* Interpreting the clustering final result
+
+========================================================
+
+
+```r
+summary(cars)
+```
+
+```
+     speed           dist       
+ Min.   : 4.0   Min.   :  2.00  
+ 1st Qu.:12.0   1st Qu.: 26.00  
+ Median :15.0   Median : 36.00  
+ Mean   :15.4   Mean   : 42.98  
+ 3rd Qu.:19.0   3rd Qu.: 56.00  
+ Max.   :25.0   Max.   :120.00  
+```
+
+Slide With Plot
+========================================================
+
+![plot of chunk unnamed-chunk-2](K-means Clustering using Apache Mahout via command line-figure/unnamed-chunk-2-1.png)
