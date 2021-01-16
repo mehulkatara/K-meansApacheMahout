@@ -40,7 +40,7 @@ Steps 1
 
 The first step is to get our dataset that will eventually represent our raw material on which we will test our clustering algorithm
 
-<https://github.com/mehulkatara/K-meansApacheMahout/tree/main/data>
+<https://github.com/mehulkatara/K-meansApacheMahout/raw/main/data.zip>
 
 Steps 2
 ========================================================
